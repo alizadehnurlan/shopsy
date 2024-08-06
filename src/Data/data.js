@@ -5,6 +5,9 @@ import img1 from "../assets/women/women.png"
 import img2 from "../assets/women/women2.jpg"
 import img3 from "../assets/women/women3.jpg"
 import img4 from "../assets/women/women4.jpg"
+import Img1 from "../assets/shirt/shirt.png";
+import Img2 from "../assets/shirt/shirt2.png";
+import Img3 from "../assets/shirt/shirt3.png";
 
 
 export const Menu = [
@@ -125,3 +128,78 @@ export const ProductsData = [
         aosDelay: "800",
     },
 ]
+
+
+
+
+export const ProductsData2 = [
+  {
+    id: 1,
+    img: Img1,
+    title: "Casual Wear",
+    description:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: 2,
+    img: Img2,
+    title: "Printed shirt",
+    description:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: 3,
+    img: Img3,
+    title: "Women shirt",
+    description:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+];
+
+
+export const TestimonialData = [
+    {
+      id: 1,
+      name: "Victor",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+      img: "https://picsum.photos/101/101",
+    },
+    {
+      id: 2,
+      name: "Satya Nadella",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+      img: "https://picsum.photos/102/102",
+    },
+    {
+      id: 3,
+      name: "Virat Kohli",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+      img: "https://picsum.photos/104/104",
+    },
+    {
+      id: 5,
+      name: "Sachin Tendulkar",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+      img: "https://picsum.photos/103/103",
+    },
+  ];
+
+
+  export const FooterLinks = [
+    {
+      title: "Home",
+      link: "/#",
+    },
+    {
+      title: "About",
+      link: "/#about",
+    },
+    {
+      title: "Contact",
+      link: "/#contact",
+    },
+    {
+      title: "Blog",
+      link: "/#blog",
+    },
+  ];
